@@ -1,3 +1,3 @@
 class Work < ApplicationRecord
-	has_many :users, inverse_of: :category
+	has_one :users 
 end
